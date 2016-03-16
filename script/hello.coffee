@@ -4,5 +4,5 @@
 # Commands:
 #   hubot greet - Say hello to the world
 module.exports = (robot) ->
-  robot.respond /greet/i, (msg) ->
+  robot.hear /hi/i, (msg) ->
     msg.send "Hello, World!"
